@@ -262,6 +262,76 @@ button {
   font-size: 16px;
   line-height: 1.625;
 }
+.customer {
+  padding: 50px 0;
+}
+.customer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.customer-wrap {
+  width: 450px;
+}
+
+.customer-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+.customer-title-part {
+  font-weight: 700;
+  font-size: 32px;
+}
+.customer-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 30px;
+}
+
+.customer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.customer-item-wrap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.customer-item {
+  margin-bottom: 25px;
+}
+
+.customer-icon-wrapper {
+  border: 2.92px solid #fff;
+  border-radius: 14px;
+  width: 35px;
+  height: 35px;
+  background: #f90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.customer-icon-wrapper-second {
+  background-color: #f03e3d;
+}
+.customer-icon-wrapper-third {
+  background-color: #4d8dff;
+}
+.customer-icon {
+  fill: #fff;
+}
+
+.customer-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+}
+
 .process {
   padding-top: 100px;
   padding-bottom: 50px;
