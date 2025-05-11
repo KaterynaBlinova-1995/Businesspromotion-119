@@ -482,10 +482,124 @@ button {
   width: 322px;
   height: 456px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
-  background: #fff;
+  background-color: #fff;
   padding: 32px 72px;
 }
+.price-item.white {
+  background-color: #02897a;
+}
+.price-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 1.67;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.price-subtitle.white {
+  color: #fff;
+}
 
+.price-paragraph {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2.5;
+  margin-bottom: 16px;
+}
+.price-paragraph.white {
+  color: #fff;
+}
+.price-box {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.price-box.premium {
+  width: 187px;
+}
+.price-minibox {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.price-paragraph-figure {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+.price-paragraph-figure.white {
+  color: #fff;
+}
+
+.price-paragraph-part {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+.price-paragraph-part.white {
+  color: #fff;
+}
+
+.price-time {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+.price-time.white {
+  color: #e0e0e0;
+}
+.price-list-options {
+  margin-bottom: 30px;
+}
+.price-list-options-item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.price-list-options-item.white {
+  color: #fff;
+}
+
+.price-button {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  min-width: 139px;
+  height: 44px;
+  background-color: #02897a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+}
+.price-button:hover,
+.price-button:focus {
+  background-color: #173a56;
+}
+.price-button.white {
+  background-color: #fff;
+  color: #02897a;
+}
+.price-button.white:hover,
+.price-button.white:focus {
+  background-color: #173a56;
+  color: #fff;
+}
 /* footer */
 .footer {
   padding-top: 50px;
