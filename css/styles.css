@@ -262,6 +262,7 @@ button {
   font-size: 16px;
   line-height: 1.625;
 }
+/* customer */
 .customer {
   padding: 50px 0;
 }
@@ -332,6 +333,7 @@ button {
   font-size: 16px;
   line-height: 1.625;
 }
+/* process */
 
 .process {
   padding-top: 100px;
@@ -398,6 +400,7 @@ button {
 .process-btn:focus {
   background-color: #173a56;
 }
+/* contents */
 .contents {
   padding-top: 50px;
   padding-bottom: 85px;
@@ -450,6 +453,40 @@ button {
   font-size: 24px;
   line-height: 1.67;
 }
+/* price */
+.price {
+  padding-top: 85px;
+  padding-bottom: 50px;
+}
+.price-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.price-text {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.price-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+}
+.price-wrap {
+  /* display: flex;
+  align-items: center; */
+}
+.price-item {
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  padding: 32px 72px;
+}
+
+/* footer */
 .footer {
   padding-top: 50px;
   padding-bottom: 40px;
